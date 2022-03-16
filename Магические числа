@@ -1,0 +1,8 @@
+king = 'King Balon the 6th'
+
+# BEGIN (write your solution here)
+number_of_castles = 6 #количество замков
+rooms_in_the_castle = 17 #количество комнат
+total_rooms = number_of_castles * rooms_in_the_castle #комнат всего
+print(king + ' has ' + str(total_rooms) + ' rooms.')
+# END
