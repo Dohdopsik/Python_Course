@@ -6,3 +6,5 @@ rubles_per_dollars = 60 #рубль в доллар
 dollars_count = euros_count * dollars_per_euro
 rubles_count = dollars_count * rubles_per_dollars
 print(str(dollars_count)+'\n'+ str(rubles_count)) #строчный вид курса доллара и курса рубля
+#125.0
+#7500.0
