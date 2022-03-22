@@ -1,0 +1,5 @@
+from random import random
+
+# BEGIN (write your solution here)
+print(round(random()*10)) # Функция, возвращающая случайное число
+# END
