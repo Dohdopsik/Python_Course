@@ -1,0 +1,8 @@
+def truncate(text, length):
+    result = f"{text[0:length]}..."
+    return result
+    #решение учителя
+def truncate(text, length):
+    return text[:length] + "..."
+    #моё решение
+    #https://ru.code-basics.com/languages/python/lessons/parameters#solution подробности
