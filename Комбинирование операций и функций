@@ -1,0 +1,12 @@
+# Моё решение
+
+def is_international_phone(number):
+    international_phone = number[0]
+    return number[0] == "+"
+    print(is_international_phone('89602223423'))
+    print(is_international_phone('+79602223423'))
+    
+#Решение учителя
+
+def is_international_phone(phone):
+    return phone[0] == '+'
